@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7a16baba7484afdd1bd7eb972a0ddb51/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/0ee5538f707064cb5ea896f73f885433/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d6e0f2fafe37cf33629c742223134808/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6753e1bbbc7ac1975424059c047f300b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/f72711bbf557331e281480275595f674/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cb97d50b9aa1df6cad7c1dc888e32c86/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c489b973b0ee8de7ca5fcd4a6a2d032e/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/99d937c670fedb48b2489f4fda7e3b02/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/145b35e2a0ce8bd2597ecdd69718be28/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/76177d9bec54c927123749fb6469b19a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b1db0c87c7d271f86d1e58d250c334de/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:2:5-25
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7a16baba7484afdd1bd7eb972a0ddb51/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7a16baba7484afdd1bd7eb972a0ddb51/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/0ee5538f707064cb5ea896f73f885433/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/0ee5538f707064cb5ea896f73f885433/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cb97d50b9aa1df6cad7c1dc888e32c86/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cb97d50b9aa1df6cad7c1dc888e32c86/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c489b973b0ee8de7ca5fcd4a6a2d032e/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c489b973b0ee8de7ca5fcd4a6a2d032e/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.rn_app.MainActivity
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.54.4] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/react-native-0.54.4.aar/207a506913adb4b6a84b977ced079406/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7a16baba7484afdd1bd7eb972a0ddb51/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/7a16baba7484afdd1bd7eb972a0ddb51/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/0ee5538f707064cb5ea896f73f885433/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/0ee5538f707064cb5ea896f73f885433/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d6e0f2fafe37cf33629c742223134808/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/d6e0f2fafe37cf33629c742223134808/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6753e1bbbc7ac1975424059c047f300b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/6753e1bbbc7ac1975424059c047f300b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/f72711bbf557331e281480275595f674/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/f72711bbf557331e281480275595f674/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cb97d50b9aa1df6cad7c1dc888e32c86/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/cb97d50b9aa1df6cad7c1dc888e32c86/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/99d937c670fedb48b2489f4fda7e3b02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/99d937c670fedb48b2489f4fda7e3b02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/145b35e2a0ce8bd2597ecdd69718be28/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/145b35e2a0ce8bd2597ecdd69718be28/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/76177d9bec54c927123749fb6469b19a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/76177d9bec54c927123749fb6469b19a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b1db0c87c7d271f86d1e58d250c334de/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/michaeldragomir/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/b1db0c87c7d271f86d1e58d250c334de/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/michaeldragomir/Desktop/reactNative/rn_app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
