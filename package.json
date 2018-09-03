@@ -25,6 +25,7 @@
     "@babel/preset-react": "^7.0.0-beta.55",
     "react": "16.3.1",
     "react-native": "^0.54.4",
+    "react-native-navigation": "^1.1.484",
     "react-native-vector-icons": "^5.0.0",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",

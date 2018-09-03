@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCViewController.m \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCViewController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCNavigationController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCTabBarController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCDrawerController/RCCTheSideBarManagerViewController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCManager.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCExternalViewControllerProtocol.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/Helpers/RCCTitleViewHelper.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native-navigation/ios/RCCCustomTitleView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootViewDelegate.h
