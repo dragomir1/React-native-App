@@ -6,6 +6,7 @@ import AuthScreen from './src/screens/Auth/Auth';
 import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
 import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
 import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail';
+import SideDrawerScreen from './src/screens/SideDrawer/SideDrawer';
 
 
 // we need access to our store
@@ -32,9 +33,13 @@ Navigation.registerComponent("awesomePlaces.SharePlaceScreen", () => SharePlaceS
 Navigation.registerComponent("awesomePlaces.FindPlaceScreen", () => FindPlaceScreen, store, Provider);
 
 // WE NEED TO PUSH THIS COMPONENT ON THE STACK OF PAGES WHEN USER CLICKS ON A PLACE.
-Navigation.registerComponent("awesomePlaces.PlaceDetailScreen", () => PlaceDetailScreen);
-// start an app - this is basically an app for react native navigaiton.
+Navigation.registerComponent("awesomePlaces.PlaceDetailScreen", () => PlaceDetailScreen, store, Provider);
 
+// WE NEED TO PUSH THIS COMPONENT ON THE STACK OF PAGES WHEN USER CLICKS ON A PLACE.
+Navigation.registerComponent("awesomePlaces.SideDrawerScreen", () => SideDrawerScreen, store, Provider);
+
+
+// start an app - this is basically an app for react native navigaiton.
 Navigation.startSingleScreenApp({
   screen: {
     screen: "awesomePlaces.AuthScreen",

@@ -10,7 +10,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableWithoutFeedback, Image } from 'react-native';
 // placeName is chose as the property name. it could be any name you choose. this needs to be binded.
 const listItem = (props) => (
-  <TouchableWithoutFeedback onPress={props.onItemRemove}>
+  <TouchableWithoutFeedback onPress={props.onItemPressed}>
     <View style={styles.listItem} >
       <Image style={styles.placeImage} source={props.placeImage} />
       <Text>{props.placeName}</Text>
