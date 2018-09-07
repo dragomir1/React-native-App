@@ -16,18 +16,13 @@ import { View, StyleSheet, Text, Button, TextInput } from 'react-native';
 //  we need to do some code in the render function.  MAP is the the default logic for outputting arrays in react.
 // we use 'i' to place it in a key since we dont really have a unique identifer, we just pass i to be used as the key value in our text element. not the best solution but we dont have any unique id.
 
-class userInput extends Component {
-  // reistering state so that we can use two-way binding to store the user input.
-    state = {
-      placeName: ''
-    };
+const userInput = props => (
+          <DefaultInput
+            placeholder="Place Name"
+            value={props.placeName}
+            onChangeText={props.onChangeText} />
+        );
 
-    // handling changes to the input
-      placeNameChangedHandler = val => {
-        this.setState({
-          placeName: val
-        });
-      };
 
       // placeSubmitHandler = () => {
       //   if(this.state.placeName.trim() === "") {
@@ -36,13 +31,6 @@ class userInput extends Component {
       //   this.props.onPlaceAdded(this.state.placeName);
       // };
 
-  render () {
-    return <DefaultInput
-              placeholder="Place Name"
-              value={this.state.placeName}
-              onChangeText={this.placeNameChangedHandler} />
-  };
-}
 
 // this is the format for when creating styling for your elements.
 // const styles = StyleSheet.create({

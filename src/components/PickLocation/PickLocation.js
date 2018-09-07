@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import { View, Image, Button, StyleSheet } from 'react-native';
+import { View, Image, Button, StyleSheet, } from 'react-native';
 import backgroundImage from '../../assets/background.jpg';
 
 
-class PickImage extends Component {
+class PickLocation extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.placeholder}>
-          <Image source={backgroundImage} style={styles.imagePreview} />
-        </View>
-        <View style={styles.button}>
-          <Button title="pick image" onPress={() => alert('pick image')} />
-        </View>
+      <View style={styles.placeholder}>
+        <Image source={backgroundImage} style={styles.imagePreview} />
+      </View>
+      <View style={styles.button}>
+        <Button title="Locate me" onPress={() => alert('location')} />
+      </View>
       </View>
     );
   }
@@ -39,4 +39,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default PickImage;
+export default PickLocation;

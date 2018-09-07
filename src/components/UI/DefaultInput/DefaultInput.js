@@ -16,7 +16,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#000",
     padding: 5,
-    margin: 10
+    marginTop: 10,
+    marginBottom: 10
   }
 });
 export default defaultInput;

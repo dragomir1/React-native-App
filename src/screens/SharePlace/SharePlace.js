@@ -3,12 +3,18 @@ import { View, Text, TextInput, Button, StyleSheet, ScrollView, Image} from 'rea
 import { connect } from 'react-redux';
 import UserInput from '../../components/UserInput/UserInput';
 import { addPlace } from '../../store/actions/index';
-// import DefaultInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
-import backgroundImage from '../../assets/background.jpg';
+import PickImage from '../../components/PickImage/PickImage';
+import PickLocation from '../../components/PickLocation/PickLocation';
+
 
 class SharePlaceScreen extends Component {
+
+  // this is to connect userInput to generate new places.  By default its' an empty string
+  state = {
+    placeName: ""
+  }
 
 
 // when working with RN navigation, we need events to open the side drawer. to set those up we need to add constructors. we need to listen to and even by setting up a listener.
@@ -30,30 +36,32 @@ class SharePlaceScreen extends Component {
     }
   }
 
+  onChangeTextHandler = value => {
+    this.setState({placeName: value});
+
+  }
 
   placeAddHandler = placeName => {
-    this.props.onAddPlace(placeName);
-  }
+    if(this.state.placeName.trim() !== "") {
+      this.props.onAddPlace(this.state.placeName);
+    }
+  };
 
   render() {
     return (
       <ScrollView contentContainerStyle={styles.container}>
-        <MainText><HeadingText>Share a place with us</HeadingText></MainText>
-        <View style={styles.placeholder}>
-          <Image source={backgroundImage} style={styles.imagePreview} />
-        </View>
+        <MainText>
+          <HeadingText>Share a place with us</HeadingText>
+        </MainText>
+        <PickImage />
+        <PickLocation />
+        <UserInput
+          placeName={this.state.placeName}
+          onChangeText={this.onChangeTextHandler} />
         <View style={styles.button}>
-          <Button title="pick image" />
-        </View>
-        <View style={styles.placeholder}>
-          <Image source={backgroundImage} style={styles.imagePreview} />
-        </View>
-        <View style={styles.button}>
-          <Button title="Locate me" />
-        </View>
-        <UserInput />
-        <View style={styles.button}>
-          <Button title="Share the place" />
+          <Button
+            title="Share the place"
+            onPress={this.placeAddHandler} />
         </View>
       </ScrollView>
     );
