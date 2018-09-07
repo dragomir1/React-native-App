@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import DefaultInput from '../UI/DefaultInput/DefaultInput';
 import { View, StyleSheet, Text, Button, TextInput } from 'react-native';
 
 
@@ -29,46 +29,51 @@ class userInput extends Component {
         });
       };
 
-      placeSubmitHandler = () => {
-        if(this.state.placeName.trim() === "") {
-          return;
-        }
-        this.props.onPlaceAdded(this.state.placeName);
-      };
+      // placeSubmitHandler = () => {
+      //   if(this.state.placeName.trim() === "") {
+      //     return;
+      //   }
+      //   this.props.onPlaceAdded(this.state.placeName);
+      // };
 
   render () {
-    return (
-      <View style={styles.inputContainer}>
-        <TextInput
-          value={this.state.placeName}
-          onChangeText={this.placeNameChangedHandler}
-          placeholder="enter the awesome place"
-          style={styles.placeInput} />
-        <Button
-          title="add"
-          style={styles.placeButton}
-          onPress={this.placeSubmitHandler} />
-      </View>
-    );
-  }
+    return <DefaultInput
+              placeholder="Place Name"
+              value={this.state.placeName}
+              onChangeText={this.placeNameChangedHandler} />
+  };
 }
 
 // this is the format for when creating styling for your elements.
-const styles = StyleSheet.create({
-  inputContainer: {
-    // flex: 1,
-    // this takes the full avail width it has. the difference between this and flex: 1 is that it will not take the full space from top to bottom..just from left to right.
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  },
-  placeInput: {
-    width: '70%'
-  },
-  placeButton: {
-    width: '30%'
-  }
-});
+// const styles = StyleSheet.create({
+//   inputContainer: {
+//     // flex: 1,
+//     // this takes the full avail width it has. the difference between this and flex: 1 is that it will not take the full space from top to bottom..just from left to right.
+//     width: '100%',
+//     flexDirection: 'row',
+//     justifyContent: 'space-between',
+//     alignItems: 'center'
+//   },
+//   placeInput: {
+//     width: '70%'
+//   },
+//   placeButton: {
+//     width: '30%'
+//   }
+// });
 
 export default userInput;
+
+
+// This was replaced with the default input component
+// <View style={styles.inputContainer}>
+//   <TextInput
+//     value={this.state.placeName}
+//     onChangeText={this.placeNameChangedHandler}
+//     placeholder="enter the awesome place"
+//     style={styles.placeInput} />
+//   <Button
+//     title="add"
+//     style={styles.placeButton}
+//     onPress={this.placeSubmitHandler} />
+// </View>
