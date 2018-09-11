@@ -49,6 +49,9 @@ const startTabs = () => {
         left: {
           screen: "awesomePlaces.SideDrawerScreen",
         }
+      },
+      tabsStyle: {
+        tabBarSelectedButtonColor: "#009933"
       }
 
 

@@ -11,6 +11,12 @@ import PickLocation from '../../components/PickLocation/PickLocation';
 
 class SharePlaceScreen extends Component {
 
+  // we are styling menu button.    WE DO THIS IN THE COMPONENTS WHERE WE CONTROL THAT BUTTON.
+  // STATIC PROPERTY CAN BE ACCESSED WITHOUT BEING INSTANTIATED.
+  static navigatorStyle = {
+    navBarButtonColor: "#009933"
+  }
+
   // this is to connect userInput to generate new places.  By default its' an empty string
   state = {
     placeName: ""
