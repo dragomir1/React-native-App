@@ -1,13 +1,21 @@
-import React, { Component } from 'react';
-import { View, Text, TextInput, Button, StyleSheet, ScrollView, Image} from 'react-native';
-import { connect } from 'react-redux';
+import React, {Component} from 'react';
+import {
+  View,
+  Text,
+  TextInput,
+  Button,
+  StyleSheet,
+  ScrollView,
+  Image
+} from 'react-native';
+import {connect} from 'react-redux';
 import UserInput from '../../components/UserInput/UserInput';
-import { addPlace } from '../../store/actions/index';
+import {addPlace} from '../../store/actions/index';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
 import PickImage from '../../components/PickImage/PickImage';
 import PickLocation from '../../components/PickLocation/PickLocation';
-
+import validate from '../../utility/validation';
 
 class SharePlaceScreen extends Component {
 
@@ -18,12 +26,21 @@ class SharePlaceScreen extends Component {
   }
 
   // this is to connect userInput to generate new places.  By default its' an empty string
+  // we are setting up to check and validate that the user input is not empty.
   state = {
-    placeName: ""
-  }
+    controls: {
+      placeName: {
+        value: "",
+        valid: false,
+        touched: false,
+        validationRules: {
+          notEmpty: true
+        }
+      }
+    }
+  };
 
-
-// when working with RN navigation, we need events to open the side drawer. to set those up we need to add constructors. we need to listen to and even by setting up a listener.
+  // when working with RN navigation, we need events to open the side drawer. to set those up we need to add constructors. we need to listen to and even by setting up a listener.
   constructor(props) {
     super(props);
     // this.props.navigator.setOnNavigatorEvent() => this specifies a method that should be executed whenever some navigation event occurs
@@ -33,44 +50,52 @@ class SharePlaceScreen extends Component {
   // adding event listener METHOD
   onNavigatorEvent = event => {
     console.log(event);
-    if(event.type === "NavBarButtonPress") {
-      if(event.id === "sideDrawerToggle") {
-        this.props.navigator.toggleDrawer({
-          side: "left"
-        });
+    if (event.type === "NavBarButtonPress") {
+      if (event.id === "sideDrawerToggle") {
+        this.props.navigator.toggleDrawer({side: "left"});
       }
     }
   }
-
+//  we are checking and validating the input. so if it's empty the button will be disabled.
   onChangeTextHandler = value => {
-    this.setState({placeName: value});
-
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          placeName: {
+            ...prevState.controls.placeName,
+            value: value,
+            valid: validate(value, prevState.controls.placeName.validationRules),
+            touched: true
+          }
+        }
+      }
+    });
   }
 
   placeAddHandler = placeName => {
-    if(this.state.placeName.trim() !== "") {
-      this.props.onAddPlace(this.state.placeName);
+    if (this.state.controls.placeName.value.trim() !== "") {
+      this.props.onAddPlace(this.state.controls.placeName.value);
     }
   };
 
   render() {
-    return (
-      <ScrollView contentContainerStyle={styles.container}>
-        <MainText>
-          <HeadingText>Share a place with us</HeadingText>
-        </MainText>
-        <PickImage />
-        <PickLocation />
-        <UserInput
-          placeName={this.state.placeName}
-          onChangeText={this.onChangeTextHandler} />
-        <View style={styles.button}>
-          <Button
-            title="Share the place"
-            onPress={this.placeAddHandler} />
-        </View>
-      </ScrollView>
-    );
+    return (<ScrollView contentContainerStyle={styles.container}>
+      <MainText>
+        <HeadingText>Share a place with us</HeadingText>
+      </MainText>
+      <PickImage/>
+      <PickLocation/>
+      <UserInput
+        placeData={this.state.controls.placeName}
+        onChangeText={this.onChangeTextHandler} />
+      <View style={styles.button}>
+        <Button
+          title="Share the place"
+          onPress={this.placeAddHandler}
+          disabled={!this.state.controls.placeName.valid} />
+      </View>
+    </ScrollView>);
   }
 }
 
@@ -97,7 +122,7 @@ const styles = StyleSheet.create({
 
 const mapDispachToProps = dispatch => {
   return {
-    onAddPlace: (placeName) => dispatch(addPlace(placeName)),
+    onAddPlace: (placeName) => dispatch(addPlace(placeName))
   };
 };
 export default connect(null, mapDispachToProps)(SharePlaceScreen);

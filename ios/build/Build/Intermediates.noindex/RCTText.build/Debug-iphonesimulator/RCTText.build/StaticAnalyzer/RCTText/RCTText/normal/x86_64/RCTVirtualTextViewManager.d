@@ -27,5 +27,6 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/RCTTextAttributes.h

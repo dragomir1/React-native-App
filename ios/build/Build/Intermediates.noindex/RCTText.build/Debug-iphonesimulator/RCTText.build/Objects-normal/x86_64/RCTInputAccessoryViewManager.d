@@ -23,8 +23,4 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryShadowView.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h

@@ -21,6 +21,8 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/CxxBridge/RCTCxxBridgeDelegate.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/CxxModule/RCTCxxModule.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/CxxModule/RCTCxxUtils.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSCExecutor.h \
@@ -400,8 +402,6 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Exception.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Windows.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/Value.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/Unicode.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/noncopyable.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/privatedata/PrivateDataBase.h \

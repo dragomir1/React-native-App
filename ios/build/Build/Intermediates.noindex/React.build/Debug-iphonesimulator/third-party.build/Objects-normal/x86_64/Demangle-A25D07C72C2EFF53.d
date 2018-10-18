@@ -1,17 +1,17 @@
 dependencies: \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Demangle.cpp \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Demangle.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/FBString.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Portability.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Config.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/CPortability.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Hash.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/ApplyTuple.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Bits.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/Builtins.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Assume.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/BitsDetail.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/BitIteratorDetail.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/third-party/folly-2016.09.26.00/folly/Demangle.cpp \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Demangle.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/FBString.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Portability.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Config.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/CPortability.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Hash.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/ApplyTuple.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Bits.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Builtins.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Assume.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/BitsDetail.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/BitIteratorDetail.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/iterator/iterator_adaptor.hpp \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/static_assert.hpp \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/config.hpp \
@@ -217,13 +217,13 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Likely.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/SpookyHashV1.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/SpookyHashV2.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Malloc.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/detail/Malloc.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/portability/BitsFunctexcept.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.10.31.00/folly/Traits.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Likely.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/SpookyHashV1.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/SpookyHashV2.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Malloc.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/Malloc.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/BitsFunctexcept.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Traits.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits.hpp \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/add_cv.hpp \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/../third-party/boost_1_63_0/boost/type_traits/add_rvalue_reference.hpp \

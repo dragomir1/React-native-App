@@ -396,4 +396,6 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Profiler/RCTProfile.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBigString.h \
-  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/MessageQueueThread.h
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/MessageQueueThread.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/RAMBundleRegistry.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSModulesUnbundle.h

@@ -29,5 +29,6 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Image/RCTImageShadowView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Image/RCTImageView.h

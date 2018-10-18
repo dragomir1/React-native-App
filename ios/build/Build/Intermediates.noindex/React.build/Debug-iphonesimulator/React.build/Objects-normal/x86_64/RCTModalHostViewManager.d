@@ -29,4 +29,5 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTModalManager.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Modules/RCTEventEmitter.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTLayout.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Base/RCTRootView.h

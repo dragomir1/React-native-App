@@ -25,6 +25,7 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/SafeAreaView/RCTSafeAreaShadowView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTLayout.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Base/RCTRootView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/SafeAreaView/RCTSafeAreaView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/React/Views/RCTView.h \

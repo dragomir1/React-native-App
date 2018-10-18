@@ -29,5 +29,7 @@ dependencies: \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h \
+  /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
   /Users/michaeldragomir/Desktop/reactNative/rn_app/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h
